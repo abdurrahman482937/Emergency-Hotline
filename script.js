@@ -9,6 +9,7 @@ getElement("card-container").addEventListener("click", function (e) {
         const heartCountDisplyconvert = parseInt(heartCountDisply.innerText);
         heartCountDisply.innerText = heartCountDisplyconvert + 1;
     }
+    
     if (e.target.className.includes("callBtn")) {
         const coin = getElement("coinDisplay");
         const coinNumber = parseInt(coin.innerText);
